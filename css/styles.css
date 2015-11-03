@@ -1,0 +1,48 @@
+/*
+Color Pallette
+Primary Color: #603765
+Secondary Color: #0C0021
+Accent/Tertiary Color: #FF6264
+
+Heading: font-family: 'Lato', sans-serif;
+Body copy: font-family:'Vollkorn', serif;
+
+*/
+
+/*Global or Site Wide*/
+body {
+background: 
+  background: -webkit-linear-gradient(90deg, #403A3E 10%, #BE5869 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #403A3E 10%, #BE5869 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #403A3E 10%, #BE5869 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #403A3E 10%, #BE5869 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #403A3E 10%, #BE5869 90%); /* W3C */
+        ;
+}
+
+/*Typography*/
+h1, h2 {
+    color:#FF6264;
+    text-transform: uppercase;
+    font-family:'Lato', sans-serif;
+}
+
+p, blockquote {
+ color:#0C0021;
+ font-family: 'Vollkorn', serif;
+ line-height: 1.5em;
+ text-align: left;
+ letter-spacing: 1px;
+}
+
+blockquote {
+ font-size: 2em;
+ font-style: italic;
+ text-align: center;
+ padding: 1em;
+}
+
+/*Images*/
+section img {
+    width: 50%;
+}
